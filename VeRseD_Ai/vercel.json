@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "name": "versed-ai",
+  "builds": [
+    {
+      "src": "app/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "ai_metaverse/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/ai_metaverse/(.*)",
+      "dest": "/ai_metaverse/$1"
+    },
+    {
+      "src": "/app/(.*)",
+      "dest": "/app/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

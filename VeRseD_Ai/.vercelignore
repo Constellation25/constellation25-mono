@@ -1,0 +1,15 @@
+node_modules
+.gradle
+gradle
+*.log
+*.md
+.git
+.github
+reports
+tasks
+summary
+agents
+*.go
+*.java
+*.class
+*.jar
