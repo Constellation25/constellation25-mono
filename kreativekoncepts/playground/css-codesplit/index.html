@@ -1,19 +1,13 @@
-<h1>This should be red</h1>
-<h2>This should be blue</h2>
-
-<p class="dynamic">This should be green</p>
-<p class="async-js">This should be blue</p>
-<p class="inline">This should not be yellow</p>
-<p class="dynamic-inline"></p>
-<p class="mod">This should be yellow</p>
-<p class="dynamic-module"></p>
-
-<p class="order-bulk">
-  This should be orange
-  <button class="order-bulk-update">change to green</button>
-</p>
-
-<p class="chunk">This should be magenta</p>
-
-<script type="module" src="/main.js"></script>
-<div id="app"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>css-codesplit</title>
+<link rel=stylesheet href=/async-js.css/>
+</head>
+<body>
+<div id="root"></div>
+<script type=module src=/async-js.js></script>
+</body>
+</html>

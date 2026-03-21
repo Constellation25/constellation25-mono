@@ -1,9 +1,13 @@
-<link rel="stylesheet" href="./nested.css" />
-<h1>Nested</h1>
-<script type="module" src="./nested.js"></script>
-
-<h1>no base path nested</h1>
-<link rel="stylesheet" href="asset/style.css" />
-<div class="relative-css">link style</div>
-<div class="relative-js"></div>
-<script src="asset/main.js" type="module"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>nested</title>
+<link rel=stylesheet href=/asset/style.css/>
+</head>
+<body>
+<div id="root"></div>
+<script type=module src=/asset/main.js></script>
+</body>
+</html>

@@ -6,9 +6,15 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "echo \"server ready\""
   },
-  "keywords": ["ai", "metaverse", "backend", "api"],
+  "keywords": [
+    "ai",
+    "metaverse",
+    "backend",
+    "api"
+  ],
   "author": "Kre8tive Konceptz",
   "license": "MIT",
   "dependencies": {

@@ -1,19 +1,13 @@
-<h1>Import assertion</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>import-assertion</title>
 
-<h2>From source code</h2>
-<p class="src"></p>
-
-<h2>From dependency</h2>
-<p class="dep"></p>
-
-<script type="module">
-  import * as data from './data.json' assert { type: 'json' }
-  text('.src', data.foo)
-
-  import * as depData from '@vitejs/test-import-assertion-dep'
-  text('.dep', depData.hello)
-
-  function text(el, text) {
-    document.querySelector(el).textContent = text
-  }
-</script>
+</head>
+<body>
+<div id="root"></div>
+<script type=module src=/import-assertion-dep/index.js></script>
+</body>
+</html>

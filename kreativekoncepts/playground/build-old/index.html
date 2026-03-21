@@ -1,19 +1,13 @@
-<h1>Build Old</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>build-old</title>
 
-<h2>import meta url</h2>
-<p class="import-meta-url"></p>
-
-<h2>dynamic import</h2>
-<p class="dynamic-import"></p>
-
-<script type="module">
-  text('.import-meta-url', typeof import.meta.url)
-
-  import('./dynamic.js').then((m) => {
-    text('.dynamic-import', m.default)
-  })
-
-  function text(el, text) {
-    document.querySelector(el).textContent = text
-  }
-</script>
+</head>
+<body>
+<div id="root"></div>
+<script type=module src=/dynamic.js></script>
+</body>
+</html>

@@ -1,5 +1,9 @@
 {
   "name": "@vitejs/child",
   "type": "module",
-  "main": "./index.js"
+  "main": "./index.js",
+  "scripts": {
+    "build": "echo \"server ready\"",
+    "start": "node index.js"
+  }
 }

@@ -1,3 +1,7 @@
 {
-  "name": "named-testing-package"
+  "name": "named-testing-package",
+  "scripts": {
+    "build": "echo \"server ready\"",
+    "start": "node child/index.js"
+  }
 }

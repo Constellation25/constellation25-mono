@@ -1,20 +1,13 @@
-<h1>preload</h1>
-<div class="chunk"></div>
-<div id="hello">
-  <button class="load">Load hello</button>
-  <div class="msg"></div>
-</div>
-<div id="about">
-  <button class="load">Load about</button>
-  <div class="msg"></div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>preload</title>
 
-<script type="module">
-  import { msgFromA } from '@vitejs/test-dep-a'
-  console.log(msgFromA)
-
-  import './src/main.js'
-  document
-    .querySelector('h1')
-    .insertAdjacentHTML('afterEnd', '<div id="done">ran js</div>')
-</script>
+</head>
+<body>
+<div id="root"></div>
+<script type=module src=/public/preloaded.js></script>
+</body>
+</html>
