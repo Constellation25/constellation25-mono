@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SovereignGTP • AI Creative Stargate (NDA Gate)</title>
+
+  <!-- Tailwind + Fonts + Icons (CDN-safe for GoDaddy) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+
+  <style>
+    *{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial}
+    .glass{backdrop-filter: blur(12px); background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03)); border:1px solid rgba(255,255,255,.12)}
+    .dark-glass{backdrop-filter: blur(10px); background: rgba(8,14,28,.55); border:1px solid rgba(255,255,255,.08)}
+    .gradient-ring{box-shadow: 0 0 0 1px rgba(99,102,241,.25),0 0 0 6px rgba(99,102,241,.10),0 0 40px rgba(56,189,248,.12)}
+    .hero-grid{background-image: radial-gradient(circle at 25% 25%,rgba(56,189,248,.18) 0%,transparent 50%), radial-gradient(circle at 75% 75%,rgba(244,114,182,.18) 0%,transparent 50%), radial-gradient(circle at 50% 50%,rgba(99,102,241,.18) 0%,transparent 50%);}
+    .command-terminal{background:#0f172a;border-radius:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .typing-cursor::after{content:"|"; animation:blink 1s infinite}
+    @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+    /* Moving Web */
+    #moving-web{position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:0;overflow:visible}
+    .web-line{stroke:rgba(255,255,255,.13);stroke-width:1;animation:web-move 24s linear infinite;transform-origin:center}
+    .web-line:nth-child(even){animation-direction:reverse;animation-duration:30s}
+    @keyframes web-move{0%{transform:translate(0,0) rotate(0deg)}100%{transform:translate(8px,8px) rotate(360deg)}}
+    /* Simple content protection (client-side only) */
+    .protected::selection{background:transparent}
+    .shield-blur{filter: blur(5px); opacity:.75; pointer-events:none}
+    /* Buttons */
+    .btn-primary{background: linear-gradient(90deg,#1e40af,#7c3aed); color:#fff}
+    .btn-primary:hover{filter:brightness(1.1)}
+    .btn-ghost{background:rgba(255,255,255,.06)}
+    .btn-ghost:hover{background:rgba(255,255,255,.12)}
+    .badge{padding:.25rem .5rem;border-radius:.5rem;border:1px solid rgba(255,255,255,.15);font-size:.7rem;letter-spacing:.02em}
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 protected">
+
+  <!-- Moving Web SVG -->
+  <svg id="moving-web" aria-hidden="true" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+    <!-- Verts -->
+    <line class="web-line" x1="10" y1="0" x2="10" y2="100"/><line class="web-line" x1="20" y1="0" x2="20" y2="100"/>
+    <line class="web-line" x1="30" y1="0" x2="30" y2="100"/><line class="web-line" x1="40" y1="0" x2="40" y2="100"/>
+    <line class="web-line" x1="50" y1="0" x2="50" y2="100"/><line class="web-line" x1="60" y1="0" x2="60" y2="100"/>
+    <line class="web-line" x1="70" y1="0" x2="70" y2="100"/><line class="web-line" x1="80" y1="0" x2="80" y2="100"/>
+    <line class="web-line" x1="90" y1="0" x2="90" y2="100"/>
+    <!-- Hori -->
+    <line class="web-line" x1="0" y1="10" x2="100" y2="10"/><line class="web-line" x1="0" y1="20" x2="100" y2="20"/>
+    <line class="web-line" x1="0" y1="30" x2="100" y2="30"/><line class="web-line" x1="0" y1="40" x2="100" y2="40"/>
+    <line class="web-line" x1="0" y1="50" x2="100" y2="50"/><line class="web-line" x1="0" y1="60" x2="100" y2="60"/>
+    <line class="web-line" x1="0" y1="70" x2="100" y2="70"/><line class="web-line" x1="0" y1="80" x2="100" y2="80"/>
+    <line class="web-line" x1="0" y1="90" x2="100" y2="90"/>
+    <!-- Diags -->
+    <line class="web-line" x1="0" y1="0" x2="100" y2="100"/><line class="web-line" x1="100" y1="0" x2="0" y2="100"/>
+  </svg>
+
+  <!-- Header -->
+  <header class="sticky top-0

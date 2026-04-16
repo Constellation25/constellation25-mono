@@ -1,0 +1,15 @@
+VIDEOCOURTS GAMMA.APP INTEGRATION - VALIDATION STEPS
+=====================================================
+
+[ ] 1. Confirm all markdown files render correctly in Obsidian/Vercel preview
+[ ] 2. Verify no PII or court-specific data was ingested (Gamma.app source check)
+[ ] 3. Test local build: npm run build (if Next.js/Vercel config present)
+[ ] 4. Validate file permissions: chmod 600 on compliance docs
+[ ] 5. Run sha256sum on all new files for forensic integrity log
+[ ] 6. Update REPO_LIST in C25-FIX-286.sh if videocourts path was missing
+[ ] 7. Backup new content to /sdcard/Download/empire-backups/videocourts_$(date +%Y%m%d)
+
+POST-INTEGRATION ACTIONS:
+- [ ] Draft acquisition outreach email template (use Investor_OnePager.md)
+- [ ] Prepare demo environment for investor presentations
+- [ ] Sync with Constellation25 agent swarm for automated compliance checks (#c25 trigger)
