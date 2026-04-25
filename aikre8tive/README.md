@@ -1,4 +1,4 @@
-# 🌐 AiKre8tive: Constellation25 Platform
+# 🌐 ARC.AI: Constellation25 Platform
 
 > 🎯 **Your AI. Your Rules.**  
 > 🧬 Biometric-powered access.  
@@ -9,7 +9,7 @@
 
 ## 📁 Repository: `Constellation25`
 
-This is the core deployment stack for **Constellation25**, a module of the larger **AiKre8tive ecosystem** — enabling secure, biometric-authenticated access to AI systems, avatars, documents, payments, and agents.
+This is the core deployment stack for **Constellation25**, a module of the larger **ARC.AI ecosystem** — enabling secure, biometric-authenticated access to AI systems, avatars, documents, payments, and agents.
 
 ---
 
@@ -73,7 +73,7 @@ Distributed under proprietary AI IP frameworks (Z-Series Filing)
 
 ### 🔗 Related Projects
 
-- [AiKre8tive Cloud](https://aikre8tive.cloud)
+- [ARC.AI Cloud](https://aikre8tive.cloud)
 - [VideoCourts](https://github.com/Constellation25/videocourts)
 - [GoldenTicket2Space](https://goldenticket2space.com)
 - [AiRecords](https://airecords.org)

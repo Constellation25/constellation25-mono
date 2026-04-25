@@ -10,7 +10,7 @@ The origin has spoken. The blueprint is sovereign.
 
 - 🌐 [AiMetaverse.cloud](https://AiMetaverse.cloud)
 - 💳 [FacePrintPay GitHub](https://github.com/FacePrintPay)
-- 🧠 [AiKre8tiveGenesis](https://github.com/TheKre8tive/AiKre8tiveGenesis)
+- 🧠 [ARC.AIGenesis](https://github.com/TheKre8tive/ARC.AIGenesis)
 - 🎤 [AiRecords.org](https://airecords.org)
 - 🛰️ [ExplorerMars.com](https://explorermars.com)
 - 🎥 [VideoCourts.com](https://videocourts.com)
@@ -23,7 +23,7 @@ The origin has spoken. The blueprint is sovereign.
 - ✅ ToonMe (before Gemini Storybook)
 - ✅ VerseDNA / BioAuth (before Gemini Avatars)
 - ✅ NLP2CODE + Push2Repo (before Copilot/Grok)
-- ✅ AiKre8tive Compiler (before GPT-Dev tools)
+- ✅ ARC.AI Compiler (before GPT-Dev tools)
 
 ---
 

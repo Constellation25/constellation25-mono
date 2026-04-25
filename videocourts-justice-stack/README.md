@@ -49,7 +49,7 @@ ls -la procurement/
 ## Integration with Kre8tive Holdings
 
 This VideoCourts Justice Stack integrates with:
-- **AiKre8tive Compiler** - orchestration layer
+- **ARC.AI Compiler** - orchestration layer
 - **LEGyC System** - archival and identity sealing
 - **FacePrintPay** - biometric authentication
 - **Planetary AI Agents** - Recon, Chronos, Echo
